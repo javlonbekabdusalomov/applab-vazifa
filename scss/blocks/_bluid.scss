@@ -1,0 +1,20 @@
+// bluid
+.bluid-name{
+    width: 321px;
+    font-style: 36px;
+    color: $name-color;
+}
+.bluid-text{
+    width: 396px;
+    color: gray;
+}
+.bluid-img-relative{
+    position: relative;
+}
+.bluid_img{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    
+   
+}

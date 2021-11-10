@@ -1,0 +1,77 @@
+// apps
+.apps__name{
+    color: $name-color;
+    font-size: 36px;
+    width: 300px;
+}
+.apps__text{
+    color: gray;
+}
+.apps__menu-name{
+    color: $red-color;
+    font-size: 20px;
+}
+.apps__menu-text{
+    color: gray;
+}
+.apps__menu-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color:#FFECEF;
+}
+.apps__menu-name2{
+    color: blue;
+}
+.apps__menu-name3{
+    color: $green-color;
+}
+// ========
+.apps-smart-box{
+    border-right: 2px solid gray;
+}
+.apps-smart-name{
+    width: 384px;
+    font-size: 36px;
+    color: $name-color;
+
+}
+.apps-smart-text{
+    width: 447px;
+
+}
+.apps__footer-text{
+    width: 267px;
+}
+// ======
+.apps__designed-name{
+    width: 350px;
+    font-style: 36px;
+    color: $name-color;
+}
+.apps__designed-text{
+    width: 410px;
+}
+// =====
+.choose-app__name{
+    width: 624px;
+    color: $name-color;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: 36px;
+    text-align: center;
+
+}
+.choose-app__text{
+    width: 642px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.choose-app__title{
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,28 @@
+.corousel-box{
+    width: 100%;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+.carousel-item{
+    padding-right: 20px;
+}
+
+.corousel-title{
+     
+    width:20%;
+    height: 80%;
+    text-align: center;
+    // border: 1px solid;
+    z-index: -1;
+    // border: 1px solid;
+}
+
+// corousel mobile
+
+.corousel-mobile-title{
+    width: 25%;
+    height: 500px;
+    text-align: center;
+    z-index: -1;
+}
