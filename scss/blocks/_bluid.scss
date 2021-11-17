@@ -3,18 +3,18 @@
     width: 321px;
     font-style: 36px;
     color: $name-color;
+    margin-top: 100px;
 }
 .bluid-text{
     width: 396px;
     color: gray;
 }
-.bluid-img-relative{
-    position: relative;
-}
-.bluid_img{
-    position: absolute;
-    top: 0;
-    left: 100%;
+ 
+.build__bg-img{
+    background-image: url(../img/ultimate.png);
+    background-repeat: no-repeat;
+    background-size: 620px;
+    background-position: right;
     
-   
+    
 }

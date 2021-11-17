@@ -1,0 +1,62 @@
+// meet
+.meet{
+    width: 100%;
+    background-image: url("../img/peoples.png");
+    background-repeat: no-repeat;
+    background-size: 820px;
+    background-position: left;
+    margin-top: 50px;
+}
+.meet-section{
+    height: 600px;
+}
+// carousel
+.meet-name{
+    color: $name-color;
+    font-size: 36px;
+    font-weight: bold;
+    width: 470px;
+    
+}
+.star{
+    // float: left;
+    text-align: start;
+}
+.meet-star{
+    color: rgb(255, 255, 45);
+    font-size: 18px;
+    margin-right: 5px;
+}
+.meet__carousel-name{
+    text-align: start;
+    color: $name-color;
+}
+.meet__carousel-text {
+    text-align: start;
+    color: gray;
+}
+.meet__carousel-img{
+    
+    float: left;
+}
+.meet__carousel-footer-name{
+    text-align: start;
+    color: $name-color;
+}
+.meet__carousel-footer-text{
+    text-align: start;
+    color: gray;
+    font-size: 24px;
+}
+.fa-arrow-circle-o-left{
+    z-index: 1;
+    display: block;
+    color: red;
+}
+.meet-corusel-prev{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 50%;
+    margin-left: 70%;
+}

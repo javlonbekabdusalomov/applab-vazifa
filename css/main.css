@@ -402,6 +402,12 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.sayt-nav {
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+}
+
 .nav__bg-img {
   background-image: url("../img/photo_2021-11-05_00-08-53.jpg");
   height: 740px;
@@ -579,7 +585,8 @@ body {
 }
 
 .carousel-item {
-  padding-right: 20px;
+  padding-right: 60px;
+  text-align: center;
 }
 
 .corousel-title {
@@ -692,6 +699,7 @@ body {
   width: 321px;
   font-style: 36px;
   color: #242F51;
+  margin-top: 100px;
 }
 
 .bluid-text {
@@ -699,19 +707,240 @@ body {
   color: gray;
 }
 
-.bluid-img-relative {
-  position: relative;
-}
-
-.bluid_img {
-  position: absolute;
-  top: 0;
-  left: 100%;
+.build__bg-img {
+  background-image: url(../img/ultimate.png);
+  background-repeat: no-repeat;
+  background-size: 620px;
+  background-position: right;
 }
 
 .get-name {
   font-style: 36px;
   color: #242F51;
   width: 576px;
+}
+
+.get-text {
+  width: 642px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.get-btns {
+  width: 340px;
+  height: 60px;
+  border: 2px solid gray;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.get-btn {
+  padding: 14px 50px;
+  margin-top: 15px;
+  border-radius: 40px !important;
+}
+
+.get-box {
+  border: 1px solid #f0ecec;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.get-box__header {
+  width: 100%;
+  height: 240px;
+  background-color: #F6F8FA;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.get__box-name {
+  margin: 0;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #242F51;
+  font-weight: bold;
+}
+
+.box__name-span {
+  font-size: 18px;
+  color: gray;
+  font-weight: 500;
+}
+
+.get-box__text {
+  color: gray;
+}
+
+.box__text-section {
+  color: gray;
+  margin-top: 35px;
+}
+
+.box__name {
+  color: #242F51;
+}
+
+.meet {
+  width: 100%;
+  background-image: url("../img/peoples.png");
+  background-repeat: no-repeat;
+  background-size: 820px;
+  background-position: left;
+  margin-top: 50px;
+}
+
+.meet-section {
+  height: 600px;
+}
+
+.meet-name {
+  color: #242F51;
+  font-size: 36px;
+  font-weight: bold;
+  width: 470px;
+}
+
+.star {
+  text-align: start;
+}
+
+.meet-star {
+  color: #ffff2d;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.meet__carousel-name {
+  text-align: start;
+  color: #242F51;
+}
+
+.meet__carousel-text {
+  text-align: start;
+  color: gray;
+}
+
+.meet__carousel-img {
+  float: left;
+}
+
+.meet__carousel-footer-name {
+  text-align: start;
+  color: #242F51;
+}
+
+.meet__carousel-footer-text {
+  text-align: start;
+  color: gray;
+  font-size: 24px;
+}
+
+.fa-arrow-circle-o-left {
+  z-index: 1;
+  display: block;
+  color: red;
+}
+
+.meet-corusel-prev {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin-top: 50%;
+  margin-left: 70%;
+}
+
+.asked {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.asked-name {
+  color: #242F51;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.asked-text {
+  width: 635px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.askeg__icon {
+  margin-left: auto;
+}
+
+.askeg__icons {
+  color: gray;
+}
+
+.download-name {
+  font-size: 36px;
+  color: #242F51;
+}
+
+.footer {
+  height: 400px;
+  background-color: #09142E;
+}
+
+.footer-menu {
+  margin-left: auto;
+  margin-right: auto;
+  width: 630px;
+  margin-top: 50px;
+}
+
+.footer-link {
+  color: white;
+  font-size: 16px;
+}
+
+.footer-icons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  text-align: center;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.footer-icon {
+  font-size: 26px;
+  margin: 10px;
+}
+
+.footer-icon:hover {
+  color: white;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: gray;
+}
+
+.footer-text:hover {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
